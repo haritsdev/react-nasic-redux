@@ -1,0 +1,4 @@
+export const CHANGEUSERNAME = 'CHANGEUSERNAME';
+export const CHANGEAGE = 'CHANGEAGE';
+export const CHANGECHECKED = 'CHANGECHECKED';
+export const CHANGEBUAH = 'CHANGEBUAH';
