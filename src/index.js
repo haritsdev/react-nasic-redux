@@ -3,14 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import store from './redux/store';
-import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
+import CardHooks from './react-hooks/CardHooks';
+import HooksContainer from './react-hooks/hooks/HooksContainer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
+    {/* <Provider store={store}>
       <App />
-    </Provider>
+    </Provider> */}
+    <BrowserRouter>
+      <HooksContainer />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
